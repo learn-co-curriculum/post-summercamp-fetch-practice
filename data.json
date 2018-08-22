@@ -1,0 +1,39 @@
+{
+  "bands": [
+    {
+      "id": 1,
+      "name": "Pink Floyd"
+    },
+    {
+      "id": 2,
+      "name": "Radiohead"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Thom Yorke",
+      "band_id": 3
+    },
+    {
+      "name": "Jonny Greenwood",
+      "band_id": 2,
+      "id": 2
+    },
+    {
+      "name": "Colin Greenwood",
+      "band_id": 2,
+      "id": 3
+    },
+    {
+      "name": "Ed O'Brien",
+      "band_id": 2,
+      "id": 4
+    },
+    {
+      "name": "Philip Selway",
+      "band_id": 2,
+      "id": 5
+    }
+  ]
+}
