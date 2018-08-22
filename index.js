@@ -3,7 +3,6 @@ const radioheadRemainingMembers = ["Jonny Greenwood", "Colin Greenwood", "Ed O'B
 const addMembersTrigger = document.getElementById('add-members-trigger')
 
 function addRemaningRadioheadMembers() {
-  console.log('clicked');
   radioheadRemainingMembers.forEach( memberName => {
     fetch(" http://localhost:3000/members", {
     method: "post",
